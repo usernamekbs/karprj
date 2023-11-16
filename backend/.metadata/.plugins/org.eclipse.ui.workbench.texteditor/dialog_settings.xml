@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="user"/>
+		<item key="wrap" value="false"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="user"/>
+			<item value="ca"/>
+			<item value="userna"/>
+			<item value="EnableMethodSecurity"/>
+			<item value="@EnableMethodSecurity"/>
+			<item value="AuthenticationConfiguration"/>
+			<item value="jsonwebtoken"/>
+			<item value="jwtAuthenticationFilter"/>
+			<item value="system"/>
+			<item value="JwtAuthenticationEntryPoint"/>
+			<item value="jwtAuthenticationEntryPoint"/>
+			<item value="authenticationJwtTokenFilter"/>
+			<item value="AuthenticationManager"/>
+			<item value="security"/>
+			<item value="unauthorizedHandler"/>
+		</list>
+		<list key="replacehistory">
+			<item value="products"/>
+			<item value="product2"/>
+			<item value="product"/>
+			<item value="product.setCategoryNo"/>
+			<item value="categoryNo"/>
+			<item value="add"/>
+			<item value="categoryEnabled"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="-523"/>
+		<item key="DIALOG_Y_ORIGIN" value="99"/>
+		<item key="DIALOG_WIDTH" value="418"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="330"/>
+		<item key="DIALOG_Y_ORIGIN" value="446"/>
+	</section>
+</section>

@@ -1,0 +1,34 @@
+package com.kick.web.dto.comment;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.kick.entity.Comment;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@Getter
+@NoArgsConstructor
+public class CommentDto {
+	
+	private Long id;
+	private String content;
+//	private PostDto post;
+	private String username;
+	private Long parent;
+	private List<CommentDto> children = new ArrayList<>();
+	private Long postId;
+	
+	public CommentDto(Comment comment) {
+		this.id = comment.getId();
+		this.content = comment.getContent();
+//		this.post = new PostDto(comment.getPost());
+		System.out.println( "코멘트 유저이름::::::::"+comment.getUser().getUsername());
+//		this.username = comment.getUser().getUsername();
+		this.postId = comment.getPost().getId();
+		if(comment.getParent()!=null)
+		this.parent = comment.getParent().getId();
+	}
+
+}
